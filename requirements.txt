@@ -1,0 +1,6 @@
+Django>=4.0
+pandas
+liac-arff
+matplotlib
+seaborn
+gunicorn

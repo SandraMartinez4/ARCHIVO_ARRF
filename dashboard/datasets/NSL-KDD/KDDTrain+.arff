@@ -1,0 +1,13 @@
+@relation KDDTrain+
+
+@attribute duration numeric
+@attribute protocol_type {tcp,udp,icmp}
+@attribute service string
+@attribute flag string
+@attribute src_bytes numeric
+@attribute dst_bytes numeric
+@attribute class {normal,attack}
+
+@data
+0,tcp,http,SF,181,5450,normal
+0,tcp,http,SF,239,486,attack
