@@ -1,1 +1,1 @@
-web: gunicorn nsl_kdd_dashboard.wsgi
+web: gunicorn nsl_kdd_dashboard.wsgi:application

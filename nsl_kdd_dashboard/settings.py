@@ -1,6 +1,9 @@
 # Archivo mínimo de settings de Django
 from pathlib import Path
 
+
+
+
 BASE_DIR = Path(__file__).resolve().parent.parent
 
 SECRET_KEY = 'fake-key-for-demo'
@@ -57,3 +60,13 @@ DATABASES = {
 }
 
 STATIC_URL = '/static/'
+
+
+
+
+
+
+
+
+
+# ... tu código anterior
